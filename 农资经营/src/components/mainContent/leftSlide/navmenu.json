@@ -1,0 +1,203 @@
+[
+  {
+    "name": "首页",
+    "path": "/home",
+    "icon": "icon-ny-shouye"
+  },
+  {
+    "name": "商品",
+    "path": "goods",
+    "icon": "icon-ny-caigou",
+    "children": [
+      {
+        "name": "商品信息",
+        "path": ""
+      },
+      {
+        "name": "商品维护",
+        "path": "goodsMaintain"
+      },
+      {
+        "name": "商品备案",
+        "path": "goodsApply"
+      },
+      {
+        "name": "分类申请",
+        "path": "goodsFl"
+      }
+    ]
+  },
+  {
+    "name": "进货",
+    "path": "purchase",
+    "icon": "icon-ny-shengchan",
+    "children": [
+      {
+        "name": "进货管理",
+        "path": ""
+      },
+      {
+        "name": "进货入库单",
+        "path": "purchaseList"
+      },
+      {
+        "name": "进货退货单",
+        "path": "jhthd"
+      },
+      {
+        "name": "供应商管理",
+        "path": "supplierList"
+      }
+    ]
+  },
+  {
+    "name": "批发",
+    "path": "wholesale",
+    "icon": "icon-ny-jiance",
+    "children": [
+      {
+        "name": "批发管理",
+        "path": ""
+      },
+      {
+        "name": "批发出库单",
+        "path": "wholesaleList"
+      },
+      {
+        "name": "批发退货单",
+        "path": "xsthd"
+      },
+      {
+        "name": "客户管理",
+        "path": "customerList"
+      }
+    ]
+  },
+  {
+    "name": "零售",
+    "path": "retail",
+    "icon": "icon-ny-jiance",
+    "children": [
+      {
+        "name": "零售管理",
+        "path": ""
+      },
+      {
+        "name": "零售单",
+        "path": "retailList"
+      },
+      {
+        "name": "零售退货单",
+        "path": "lsthd"
+      },
+      {
+        "name": "零售查询",
+        "path": "retailSearch"
+      },
+      {
+        "name": "会员信息",
+        "path": "member"
+      }
+    ]
+  },
+  {
+    "name": "库存",
+    "path": "stock",
+    "icon": "icon-ny-cangku",
+    "children": [
+      {
+        "name": "库存管理",
+        "path": ""
+      },
+      {
+        "name": "库存",
+        "path": "stockInfo"
+      },
+      {
+        "name": "库存预警",
+        "path": "stockWarn"
+      },
+      {
+        "name": "盘点单",
+        "path": "pddInfo"
+      }
+    ]
+  },
+  {
+    "name": "财务",
+    "path": "finance",
+    "icon": "icon-ny-xiaoshou",
+    "children": [
+      {
+        "name": "财务管理",
+        "path": ""
+      },
+      {
+        "name": "应收应付账款",
+        "path": "ysyfk"
+      },
+      {
+        "name": "会员应收款",
+        "path": "hyysk"
+      },
+      {
+        "name": "付款单",
+        "path": "fkd"
+      },
+      {
+        "name": "收款单",
+        "path": "skd"
+      }
+    ]
+  },
+  {
+    "name": "统计",
+    "path": "statistics",
+    "icon": "icon-ny-tongji",
+    "children": [
+      {
+        "name": "统计信息",
+        "path": ""
+      },
+      {
+        "name": "销售统计",
+        "path": "xstj"
+      },
+      {
+        "name": "进货统计",
+        "path": "jhtj"
+      },
+      {
+        "name": "活跃客户统计",
+        "path": "hykhtj"
+      }
+    ]
+  },
+  {
+    "name": "基础",
+    "path": "base",
+    "icon": "icon-ny-jichu",
+    "children": [
+      {
+        "name": "基础信息",
+        "path": ""
+      },
+      {
+        "name": "主体信息",
+        "path": "mainInfo"
+      },
+      {
+        "name": "用户信息",
+        "path": "userInfo"
+      },
+      {
+        "name": "参数设置",
+        "path": "settingInfo"
+      },
+      {
+        "name": "打印机配置",
+        "path": "printInfo"
+      }
+    ]
+  }
+]

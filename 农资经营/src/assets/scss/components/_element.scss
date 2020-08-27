@@ -1,0 +1,91 @@
+/* table的样式 */
+.el-table{
+    font-size:14px;
+}
+.el-table th{
+    background:#ebebeb !important;
+    font-size:14px;
+    color:#333;
+    font-weight:normal;
+}
+.el-table .cell{
+    color:#333;
+}
+
+input{
+    font-size:14px;
+}
+
+.el-button{
+    font-size:14px;
+    padding: 7px 15px;
+}
+.el-dialog__header{
+    border-bottom:2px solid #ebebeb;
+}
+
+.el-pagination{
+    margin:30px 0;
+    float: right;
+} 
+.el-table--medium th, .el-table--medium td{
+    padding-top:7px !important;
+    padding-bottom:7px !important;
+}
+
+.el-button--small {
+    font-size: 13px;
+}
+
+//修改dropdown的字体
+.el-dropdown-menu--medium .el-dropdown-menu__item {
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: 16px;
+}
+//form表单里带有有搜索按钮的input
+.select-width-btn{
+    .el-input-group__append{
+        background:#00aac7;
+        color:#fff;
+    }
+}
+//form表单里的下拉选择框，设置与form表单的宽度一样
+.form-select{
+    width:100%;
+}
+
+//编辑框
+.form{
+    width:550px;
+    margin-left:150px;
+    .form-title{
+        padding-left:50px;
+    }
+}
+
+//弹出message的样式
+.el-message {
+    top: 125px;
+}
+
+//修改ele弹框close的样式
+.el-dialog__headerbtn {
+    top: 0px;
+    right: 0px;
+    padding:8px 10px;
+    font-size:20px !important;
+}
+.el-dialog__headerbtn:hover{
+    background:#ff7676;
+    .el-dialog__close{
+        color:#fff !important;
+    }
+}
+
+//编辑按钮的样式默认按钮的重写
+.table .edit:hover{
+    background:#ecf5ff;
+    color:#60acff;
+    border:1px solid #60acff;
+  }

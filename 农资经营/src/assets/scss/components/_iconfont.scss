@@ -1,0 +1,42 @@
+/*阿里字体图标*/
+
+@font-face {
+  font-family: 'iconfont';  /* project id 467582 */
+  src: url('//at.alicdn.com/t/font_467582_51de7pajxe.eot');
+  src: url('//at.alicdn.com/t/font_467582_51de7pajxe.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_467582_51de7pajxe.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_467582_51de7pajxe.woff') format('woff'),
+  url('//at.alicdn.com/t/font_467582_51de7pajxe.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_467582_51de7pajxe.svg#iconfont') format('svg');
+}
+
+  
+  [class^="icon-ny"], [class*="icon-ny"] {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /*
+  * 使用<i class="icon-ny-user"></i>，由于是字体图标可以修改font-size
+  */
+  
+  .icon-ny-user:before { content: "\e63f"; }
+  .icon-ny-pwd:before {content: "\e63d";}
+  /*侧边栏的icon*/
+  .icon-ny-shouye:before {content: "\e65e";}
+  .icon-ny-caigou:before {content: "\e622";}
+  .icon-ny-shengchan:before {content: "\e64b";}
+  .icon-ny-jiance:before {content: "\e7fc";}
+  .icon-ny-cangku:before {content: "\e666";}
+  .icon-ny-xiaoshou:before {content: "\e612";}
+  .icon-ny-tongji:before {content: "\e609";}
+  .icon-ny-jichu:before {content: "\e625";}
+  .icon-ny-must:before {content: "\e63b";}
+  
+  
+  
+  
+  
